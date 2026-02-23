@@ -1,0 +1,14 @@
+{
+  "srcFolders": [
+    "config",
+    "constants",
+    "events",
+    "jobs",
+    "middleware",
+    "models",
+    "modules",
+    "storage",
+    "types",
+    "utils"
+  ]
+}
