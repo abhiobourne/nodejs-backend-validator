@@ -1,8 +1,12 @@
 name: Validate Backend Structure
 
 on:
+  push:
+    branches:
+      - '**'   # run on push to any branch
   pull_request:
-    branches: [main, develop]
+    branches:
+      - '**'   # run on PR from any branch
 
 jobs:
   validate:
